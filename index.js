@@ -5,7 +5,7 @@ exports.handler = (event, context, callback) => {
     currentTime.setTimezone("America/Los_Angeles");
     callback(null, {
         statusCode: '200',
-        body: 'The time in Los Angeles is: ' + currentTime.toString(),
+        body: 'Morning Olly the time in Los Angeles is: ' + currentTime.toString(),
     });
 };
 
